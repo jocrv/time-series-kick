@@ -1,0 +1,549 @@
+The general definition of a time series trend is:
+
+
+A pattern that tends to repeat itself from period to period.
+
+
+A sloping straight line that fits the data well.
+
+
+A function of t, but not necessarily a line.
+
+right
+A smooth trajectory, around which the series values ​​fluctuate.
+
+
+A horizontal line around which the series oscillates.
+
+
+
+
+ 
+
+two.
+The general definition of seasonality of a time series is:
+
+
+A function of dummy variables representing each month.
+
+
+A pattern of periodic repetitions related to temperature variations.
+
+
+A pattern of behavior with periodic repetitions of an annual period.
+
+Right
+A pattern of periodic repetitions with a period equal to or less than 1 year.
+
+
+A pattern of periodic repetitions with a fixed period and greater than 1 year.
+
+
+In the financial market, it is common to consider the premise that the best prediction of the price of a stock for tomorrow is the value of today. This premise corresponds to the method:
+
+
+from Holt
+
+
+of the least mean square error
+
+
+of the moving average
+
+right
+naive
+
+
+of exponential smoothing
+
+
+
+
+ 
+
+two.
+If the values ​​of a series strongly depend on the oldest values, that is, the series has strong persistence, indicate the value of the most appropriate damping constant for the exponential smoothing method, among the following alternatives:
+
+Right
+0.1
+
+
+0.7
+
+
+0.5
+
+
+0.9
+
+
+0.3
+
+
+The property that guarantees that the parameters of a stochastic process do not change over time is called:
+
+
+randomness
+
+right
+stationarity
+
+
+seasonality
+
+
+Regularity
+
+
+Normality
+
+
+
+
+ 
+
+two.
+I am a stochastic process {Yt} t=1:T, such that Cov(Yt ,Yt-k )=0, for all k > 0. I am the:
+
+
+AR(1) stationary without constant
+
+
+simple random walk
+
+
+random walk with constant
+
+
+AR(1) stationary with constant
+
+right 
+white noise
+
+Consider the following model:
+
+Yt = εt + 0.4εt-1 , where εt ~(i.i.d.) N (0, s2 ), ∀t.
+
+Your estimated FACP must show:
+
+
+Slow, linear decay
+
+right
+exponential decay
+
+Decay according to a damped sinusoid
+
+
+Statistically non-significant values ​​only after lag 1
+
+
+Statistically non-significant values ​​only after lag 2
+
+
+
+
+Explanation:
+.
+
+
+
+
+ 
+
+two.
+We have the following models:
+
+Yt = εt - 1.1εt-1 (1)
+
+Yt = εt - 1.1εt-1 + 0.4εt-2 (2)
+
+Regarding the property of inversibility, it can be stated that:
+
+Both are non-invertible
+
+right
+Only (2) is invertible
+
+
+There is a lack of information to conclude about the inversibility
+
+
+Only (1) is invertible
+
+
+both are invertible
+
+
+
+
+ 
+
+3.
+be the equation
+
+Yt = 0.85Yt-1+0.15Yt-2+εt.
+
+One of the roots of its characteristic equation is:
+
+
+two
+
+
+1
+
+
+3
+
+
+5
+
+Right
+4
+
+The model variance Y= 0.5 Yt-1 + εt where εt ~(i.i.d.) N(0.6), ∀t, is:
+
+right
+8
+
+
+12
+
+
+24
+
+
+6
+
+
+3
+
+
+
+
+ 
+
+two.
+The model mean
+
+Yt = 3 + εt - 0.5εt-1 , where εt ~(i.i.d.) N (0.1) , ∀t, is:
+
+
+1
+
+right
+3
+
+
+0
+
+
+two
+
+
+6
+
+Consider the model: Yt = 0.8 + 0.5Yt-1 + εt
+
+The FACP value at lag 2 is:
+
+ 
+
+
+0.25
+
+
+0.5
+
+
+0.8
+
+right
+0
+
+
+0.4
+
+
+
+
+ 
+
+two.
+A model presents theoretical FAC and FACPs:
+
+FAC:
+
+
+FACP:
+
+
+
+right
+AR(1)
+
+
+WEAPON(1,1)
+
+
+MA(2)
+
+
+MA(1)
+
+
+AR(2)
+
+
+
+
+Explanation:
+.
+
+
+
+
+ 
+
+3.
+Review the following alternatives:
+
+I. The process AR(2), Yt = ρ1 Yt-1+ ρ2 Yt-2 + εt is stationary if and only if the moduli of the roots of the polynomial B2 - ρ1 B + ρ2 are strictly greater than 1.
+
+II. In the MA(2) process, Yt = εt - θ1 εt-1 - θ2 εt-2 the partial autocorrelation between Yt and Yt-3 is different from zero.
+
+III. The ARMA(1,1) model: Yt = ρYt-1 + εt - θεt-1 , where εt has zero mean and variance σ², is stationary if and only if |ρ|< 1 and |θ|< 1.
+
+Only the following statements are correct:
+
+
+I and II
+
+
+II and III
+
+
+I
+
+right
+II
+
+
+III
+
+Consider the following model:
+
+Yt = 0.2 - 0.7Yt -1 + εt , where εt ~(i.i.d.) N (0, s2 ), ∀t.
+
+Your estimated FACP must show:
+
+
+Statistically non-significant values ​​only after lag 1
+
+right
+Decay according to a damped sinusoid
+
+
+exponential decay
+
+
+Slow, linear decay
+
+
+Statistically non-significant values ​​only after lag 2
+
+
+
+
+ 
+
+two.
+Consider the following model:
+
+Yt = εt +0.4εt -1 + εt , where εt ~(i.i.d.) N (0, s2 ), ∀t.
+
+Your estimated FACP must show:
+
+
+Decay according to a damped sinusoid
+
+right
+exponential decay
+
+
+Slow, linear decay
+
+
+Statistically non-significant values ​​only after lag 1
+
+
+Statistically non-significant values ​​only after lag 2
+
+The correct sequence to arrive at the appropriate model to represent a time series, proposed by Box & Jenkins, is:
+
+
+Identification - Overfixation - Diagnostics - Estimation
+
+
+Estimation - Identification - Overfixation - Diagnostics
+
+right
+Identification - Estimation - Overfixation - Diagnostics
+
+
+Estimation - Overfixation - Identification - Diagnostics
+
+
+Estimation - Identification - Overfixation - Diagnostics
+
+
+
+
+ 
+
+two.
+An AR(2) model was identified for a time series. Initial overfixation tests are conducted based on model estimation:
+
+
+AR(3) and MA(2)
+
+
+AR(3) and MA(1)
+
+
+AR(2) and MA(2)
+
+right
+AR(3) and ARMA(2,1)
+
+
+AR(2) and ARMA(2,1)
+
+Consider the model: Yt = 0.2 + 0.8Yt-1 + εt ,
+
+εt ~(i.i.d.) N (0,1), ∀t, estimated for the series: Y1 = 4, Y2 = 5, Y3 = 6.
+
+The 2-step-ahead forecast of this model, originating at t = 3, is:
+
+Right
+4.2
+
+
+6
+
+
+4
+
+
+5
+
+
+4.8
+
+A SARIMA(0,1,0)x(0,0,0)12 model was identified for a time series. In the superfixation tests, the following models were significant:
+
+Model (A):
+
+Estimate Std. Error z value Pr(>|z|)
+sar1 -0.312383 0.071107 -4.3931 1.117e-05 ***
+
+Model (B):
+
+ Estimate Std. Error z value Pr(>|z|)
+sma1 -0.291207 0.070288 -4.1431 3.427e-05 ***
+
+The outputs of the summary(fit) command for the models were:
+
+Model (A):
+
+sigma^2 estimated at 4,519e-06: log likelihood=837.91
+AIC = -1671.83 BIC = -1665.48
+
+Model (B):
+
+sigma^2 estimated at 4,567e-06: log likelihood=837.06
+AIC=-1670.13 BIC=-1663.78
+
+Obs - pay attention to the fact that the information criteria were negative.
+
+The number of simple and seasonal differences required were, respectively:
+
+
+1 and 1
+
+right
+1 and 0
+
+
+2 and 0
+
+
+0 and 0
+
+
+0 and 1
+
+
+
+
+ 
+
+two.
+Suppose we have the following models
+
+(A) SARIMA(0,0,0)x(2,0,0)12
+(B) SARIMA(0,0,0)x(0,0,1)12
+
+Regarding the above models, consider the following statements about theoretical FAC and FACP:
+
+I. Model (A) has an autocorrelation function with exponential or sinusoidal decay at lags 12, 24, 36, etc. gives
+II. Model (B) has an autocorrelation function with a non-zero value only at lag 12
+III. Model (A) has a partial autocorrelation function with values ​​other than zero only at lags 12 and 24
+
+Only the following statements are true:
+
+
+II
+
+
+I and III
+
+right
+I, II and III
+
+
+I and II
+
+
+II and III
+
+
+Explanation:
+.
+
+
+
+
+ 
+
+two.
+Let the model be: Yt = 0.5Yt-1 + εt , where εt ~(i.i.d.) N(0.3), ∀t, estimated for the series:
+
+Y1 = 4, Y2 = 5, Y3 = 6.
+
+The variance of the forecast error of this model converges to the following value:
+
+
+1.5
+
+
+12
+
+
+3
+
+right
+4
+
+
+6
